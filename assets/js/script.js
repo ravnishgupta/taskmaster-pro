@@ -78,7 +78,7 @@ $(".list-group").on("blur", "textarea", function() {
   var index = $(this)
     .closest(".list-group-item")
     .index();
-
+ 
   tasks[status][index].text = text;
   saveTasks();
 
